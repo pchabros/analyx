@@ -1,0 +1,9 @@
+.adjust-panel {
+  display: flex;
+  .form-group {
+    margin: 0;
+    input {
+      border-radius: 0;
+    }
+  }
+}

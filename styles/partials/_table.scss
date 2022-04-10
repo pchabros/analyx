@@ -1,0 +1,17 @@
+* {
+  scrollbar-width: 2px;
+  scrollbar-color: $color-grey white;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $color-grey;
+  width: 4px;
+}
