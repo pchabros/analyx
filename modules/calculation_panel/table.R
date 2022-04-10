@@ -1,6 +1,7 @@
 box::use(
   shiny[...],
   reactable[...],
+  ../../utils[normalize, navy_palette],
 )
 
 #' @export
@@ -19,10 +20,23 @@ server <- function(id, data) {
         fullWidth = FALSE,
         highlight = TRUE,
         pagination = FALSE,
-        height = 600,
+        height = 400,
         columns = list(
           result = colDef(
-            width = 150
+            width = 150,
+            style = function(value) {
+              normalized <- normalize(
+                value = value,
+                min = min(data()$result),
+                max = max(data()$result)
+              )
+              background <- navy_palette(normalized)
+              color <- ifelse(normalized > 0.5, "white", "black")
+              list(
+                background = background,
+                color = color
+              )
+            }
           )
         ),
         defaultColDef = colDef(

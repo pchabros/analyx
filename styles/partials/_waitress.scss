@@ -1,0 +1,21 @@
+@mixin radius {
+  border-radius: 0 !important;
+  border-bottom-left-radius: $border-radius !important;
+  border-bottom-right-radius: $border-radius !important;
+}
+
+.progressjs-progress {
+  background-color: $color-navy-light !important;
+  @include radius;
+  .progressjs-inner {
+    @include flex-center;
+    background-color: $color-navy !important;
+    @include radius;
+    .progressjs-percent {
+      font-size: 18px;
+      margin-top: -13px;
+      font-weight: 600;;
+      color: white;
+    }
+  }
+}

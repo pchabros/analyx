@@ -4,6 +4,7 @@ box::use(
   shiny[fluidPage, tags, div, shinyApp],
   sass[sass, sass_file],
   magrittr[`%>%`],
+  waiter[useWaitress],
   modules/adjust_panel,
   modules/calculation_panel,
 )
@@ -13,6 +14,7 @@ data <- AnalyticsPackage::data
 
 ui <- fluidPage(
   tags$head(tags$style(css)),
+  useWaitress(),
   div(
     class = "main-panel",
     adjust_panel$ui(

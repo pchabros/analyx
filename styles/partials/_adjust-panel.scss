@@ -1,9 +1,39 @@
 .adjust-panel {
-  display: flex;
-  .form-group {
-    margin: 0;
-    input {
-      border-radius: 0;
+  &-title {
+    @include flex-center;
+    background: $color-navy;
+    color: white;
+    text-transform: uppercase;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+  &-inputs {
+    @include flex-center;
+    .form-group {
+      margin: 0;
+      input {
+        border-radius: 0;
+        border-top: $border-light;
+        border-left: $border-light;
+        border-bottom: none;
+        border-right: none;
+      }
+    }
+    .labels {
+      @include flex-center;
+      flex-direction: column;
+      width: 100%;
+      div {
+        @include flex-center;
+        height: $row-height;
+        width: 100%;
+        flex-grow: 1;
+        border: $border-light;
+        border-bottom: none;
+        p {
+          margin: 0;
+        }
+      }
     }
   }
 }
