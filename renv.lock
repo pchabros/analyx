@@ -12,9 +12,7 @@
     "AnalyticsPackage": {
       "Package": "AnalyticsPackage",
       "Version": "0.0.0.9000",
-      "Source": "Repository",
-      "Repository": null,
-      "Hash": "b327e7dc799e1e928fa632bd0d07babf",
+      "Source": "${RENV_PATHS_LOCAL}/AnalyticsPackage_0.0.0.9000.tar.z",
       "Requirements": [
         "rlang"
       ]

@@ -1,7 +1,3 @@
-if (!require(AnalyticsPackage)) {
-  utils::install.packages(
-    "dependencies/AnalyticsPackage_0.0.0.9000.tar.gz",
-    repos = NULL, type ="source"
-  )
-}
+local_dependencies_path <- paste0(getwd(), "/dependencies/")
+Sys.setenv(RENV_PATHS_LOCAL = local_dependencies_path)
 source("renv/activate.R")
