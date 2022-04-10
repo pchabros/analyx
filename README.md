@@ -1,4 +1,4 @@
-# analyx
+# Analyx
 
 To run app locally clone repo and run:
 
