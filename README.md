@@ -1,6 +1,8 @@
 # Analyx
 
-To run app locally clone repo and run:
+App deployed on shinyapps.io can be seen [here](https://pchabros.shinyapps.io/analyx/).
+
+To run app locally enter the following commands:
 
 ```
 git clone https://github.com/pchabros/analyx.git
