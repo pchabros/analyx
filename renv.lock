@@ -12,7 +12,8 @@
     "AnalyticsPackage": {
       "Package": "AnalyticsPackage",
       "Version": "0.0.0.9000",
-      "Source": "${RENV_PATHS_LOCAL}/AnalyticsPackage_0.0.0.9000.tar.z",
+      "Source": "Cellar",
+      "Hash": "b327e7dc799e1e928fa632bd0d07babf",
       "Requirements": [
         "rlang"
       ]
@@ -49,6 +50,14 @@
       "Hash": "9b84787d7fa74d7cba737f703317e900",
       "Requirements": []
     },
+    "brio": {
+      "Package": "brio",
+      "Version": "1.1.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "976cf154dfb043c012d87cddd8bca363",
+      "Requirements": []
+    },
     "bslib": {
       "Package": "bslib",
       "Version": "0.3.1",
@@ -72,6 +81,17 @@
       "Requirements": [
         "fastmap",
         "rlang"
+      ]
+    },
+    "callr": {
+      "Package": "callr",
+      "Version": "3.7.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "461aa75a11ce2400245190ef5d3995df",
+      "Requirements": [
+        "R6",
+        "processx"
       ]
     },
     "cli": {
@@ -99,6 +119,28 @@
       "Repository": "CRAN",
       "Hash": "8dc45fd8a1ee067a92b85ef274e66d6a",
       "Requirements": []
+    },
+    "desc": {
+      "Package": "desc",
+      "Version": "1.4.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "eebd27ee58fcc58714eedb7aa07d8ad1",
+      "Requirements": [
+        "R6",
+        "cli",
+        "rprojroot"
+      ]
+    },
+    "diffobj": {
+      "Package": "diffobj",
+      "Version": "0.3.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "bcaa8b95f8d7d01a5dedfd959ce88ab8",
+      "Requirements": [
+        "crayon"
+      ]
     },
     "digest": {
       "Package": "digest",
@@ -136,6 +178,14 @@
       "Requirements": [
         "rlang"
       ]
+    },
+    "evaluate": {
+      "Package": "evaluate",
+      "Version": "0.15",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "699a7a93d08c962d9f8950b2d7a227f1",
+      "Requirements": []
     },
     "fansi": {
       "Package": "fansi",
@@ -282,6 +332,16 @@
       "Hash": "18e9c28c1d3ca1560ce30658b22ce104",
       "Requirements": []
     },
+    "mockery": {
+      "Package": "mockery",
+      "Version": "0.4.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c28ce5f7c2293d76b91657f3fe30c50b",
+      "Requirements": [
+        "testthat"
+      ]
+    },
     "pillar": {
       "Package": "pillar",
       "Version": "1.7.0",
@@ -308,6 +368,41 @@
       "Hash": "01f28d4278f15c76cddbea05899c5d6f",
       "Requirements": []
     },
+    "pkgload": {
+      "Package": "pkgload",
+      "Version": "1.2.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "7533cd805940821bf23eaf3c8d4c1735",
+      "Requirements": [
+        "cli",
+        "crayon",
+        "desc",
+        "rlang",
+        "rprojroot",
+        "rstudioapi",
+        "withr"
+      ]
+    },
+    "praise": {
+      "Package": "praise",
+      "Version": "1.0.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a555924add98c99d2f411e37e7d25e9f",
+      "Requirements": []
+    },
+    "processx": {
+      "Package": "processx",
+      "Version": "3.5.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "8bbae1a548d0d3fdf6647bdd9d35bf6d",
+      "Requirements": [
+        "R6",
+        "ps"
+      ]
+    },
     "promises": {
       "Package": "promises",
       "Version": "1.2.0.1",
@@ -321,6 +416,14 @@
         "magrittr",
         "rlang"
       ]
+    },
+    "ps": {
+      "Package": "ps",
+      "Version": "1.6.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "32620e2001c1dce1af49c49dccbb9420",
+      "Requirements": []
     },
     "purrr": {
       "Package": "purrr",
@@ -365,6 +468,16 @@
         "reactR"
       ]
     },
+    "rematch2": {
+      "Package": "rematch2",
+      "Version": "2.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "76c9e04c712a05848ae7a23d2f170a40",
+      "Requirements": [
+        "tibble"
+      ]
+    },
     "renv": {
       "Package": "renv",
       "Version": "0.15.4",
@@ -379,6 +492,22 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "04884d9a75d778aca22c7154b8333ec9",
+      "Requirements": []
+    },
+    "rprojroot": {
+      "Package": "rprojroot",
+      "Version": "2.0.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "1de7ab598047a87bba48434ba35d497d",
+      "Requirements": []
+    },
+    "rstudioapi": {
+      "Package": "rstudioapi",
+      "Version": "0.13",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "06c85365a03fdaf699966cc1d3cf53ea",
       "Requirements": []
     },
     "sass": {
@@ -431,6 +560,34 @@
       "Repository": "CRAN",
       "Hash": "947e4e02a79effa5d512473e10f41797",
       "Requirements": []
+    },
+    "testthat": {
+      "Package": "testthat",
+      "Version": "3.1.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "affcf9db2c99dd2c7e6459ef55ed3385",
+      "Requirements": [
+        "R6",
+        "brio",
+        "callr",
+        "cli",
+        "crayon",
+        "desc",
+        "digest",
+        "ellipsis",
+        "evaluate",
+        "jsonlite",
+        "lifecycle",
+        "magrittr",
+        "pkgload",
+        "praise",
+        "processx",
+        "ps",
+        "rlang",
+        "waldo",
+        "withr"
+      ]
     },
     "tibble": {
       "Package": "tibble",
@@ -493,6 +650,22 @@
         "R6",
         "htmltools",
         "shiny"
+      ]
+    },
+    "waldo": {
+      "Package": "waldo",
+      "Version": "0.4.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "035fba89d0c86e2113120f93301b98ad",
+      "Requirements": [
+        "cli",
+        "diffobj",
+        "fansi",
+        "glue",
+        "rematch2",
+        "rlang",
+        "tibble"
       ]
     },
     "withr": {
